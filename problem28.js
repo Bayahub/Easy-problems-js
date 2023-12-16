@@ -1,8 +1,9 @@
-const age =(a)=>{
-    if (a>18){
+
+function service(age,bartender){
+    if (age>18 && bartender==="not on break") {
         return "can be served";
     } else{
         return "can not be served";
     }
-}
-console.log(age(17))
+} 
+console.log(service(19,"not on break"))
