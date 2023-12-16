@@ -1,7 +1,6 @@
-//let arr =([a,b,c,d,e,f]);
-function arrayToString(a,b,c,d,e,f)
+arr=[1,2,3,4,5,6];
+function array(array1)
 {
-    retun ("a","b","c","d","e","f");
-    //return (stg);
-}
-console.log(arrayToString[1,2,3,4,5,6])
+    return array1.join("");
+  }
+console.log(array(arr))
