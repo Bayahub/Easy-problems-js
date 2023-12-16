@@ -1,8 +1,9 @@
-const numberCar=("n");
-const numberPeople=("n1"); {
-    if ("n1" %5===0); {
-        return numCar("n");
+let people=x;
+let car=y;
+function numberCar (x,y) {
+    if (x %5===0) {
+        return y;
     }
 }
 
-console.log(numberPeople(10))
+console.log(numberCar(10))

@@ -1,8 +1,6 @@
-let x=(par1,par2);
-//let y=(5);
-for (x1===1; x.length; x++<5){
-function sum_between(x){
-    return (x)
+sum=0;
+for (let x=1; x<5; x++){
+    sum +=x
 }
-}
-console.log (x)
+
+console.log (sum)
