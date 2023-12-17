@@ -1,4 +1,4 @@
-function people(n) {
+function people(n){ 
     let car;
     let result = n / 5;
     let people = n; {
@@ -8,6 +8,6 @@ function people(n) {
                 return Math.ceil(result);
             } 
         }}
-    }
+}
 
 console.log(people(25))
