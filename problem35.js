@@ -1,9 +1,13 @@
-let people=x;
-let car=y;
-function numberCar (x,y) {
-    if (x %5===0) {
-        return y;
+function people(n) {
+    let car;
+    let result = n / 5;
+    let people = n; {
+        if (n % 5 === 0) {
+            return result;}
+    else { if (n % 5 !== 0 ) {
+                return Math.ceil(result);
+            } 
+        }}
     }
-}
 
-console.log(numberCar(10))
+console.log(people(25))
